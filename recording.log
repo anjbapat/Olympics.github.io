@@ -1,0 +1,8 @@
+# version: 1.0.0
+# target: https://anjali-bapat-resume.netlify.com/
+{"type":"REQ_HOME","begin":"2019-05-02T16:44:21.433Z","end":"2019-05-02T16:44:21.463Z","status":200,"url":"/"}
+{"type":"REQ_GET","begin":"2019-05-02T16:44:21.719Z","end":"2019-05-02T16:44:22.003Z","status":200,"url":"/assets/plugins/bootstrap/css/bootstrap.min.css"}
+{"type":"REQ_GET","begin":"2019-05-02T16:44:22.017Z","end":"2019-05-02T16:44:22.225Z","status":200,"url":"/assets/plugins/font-awesome/css/font-awesome.css"}
+{"type":"REQ_GET","begin":"2019-05-02T16:44:22.236Z","end":"2019-05-02T16:44:22.568Z","status":200,"url":"/assets/css/styles-5.css"}
+{"type":"REQ_GET","begin":"2019-05-02T16:44:22.583Z","end":"2019-05-02T16:44:22.826Z","status":200,"url":"/assets/images/Anjali.png"}
+{"type":"REQ_GET","begin":"2019-05-02T16:44:22.840Z","end":"2019-05-02T16:44:23.090Z","status":200,"url":"/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.5.0"}
