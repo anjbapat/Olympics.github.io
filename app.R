@@ -78,6 +78,7 @@ medals_region$Country
 
 medals_region$medal_string = paste0(medals_region$Medal, " : ", medals_region$n)
 
+
 medals_region1 = medals_region %>%
   group_by(., Country) %>%
   mutate(., medal_string1 = paste0(medal_string, collapse = " ")) %>%
@@ -362,7 +363,7 @@ ui <- dashboardPage(skin = "yellow",
           tmp = reactive_1()
           ggplot(
             tmp[1:10,] %>% gather(key="Medal", value="n", c(Gold,Silver,Bronze)) %>% select(-total)  %>%
-              arrange(Name)
+              arrange()
           ) + theme_minimal() +
             geom_bar(aes(
               x = reorder(Name, -n), y = n, fill = factor(Medal, levels =c("Gold", "Silver", "Bronze"))
